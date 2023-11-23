@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@800&family=Inclusive+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inclusive Sans', sans-serif;
+    height: 100vh;
+}
+
+nav{
+    height: 9vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav div p{
+    color: #1B74E4;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#div_login{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+nav input{
+    width: 28%;
+    height: 70%;
+    border-radius: 7px;
+    margin: 0 4px;
+    border: 1px solid #d4d4d6;
+    padding-left: .75rem;
+    font-size: 1rem;
+}
+
+nav input::placeholder{
+    font-size: 1rem;
+}
+
+.input:focus{
+    outline-color: #1470e0;
+}
+
+nav button{
+    height: 70%;
+    padding: 0 2.5%;
+    border-radius: 10%;
+    color: #fff;
+    background-color: #1B74E4;
+    border: 1px solid #d4d4d6;
+}
+
+nav button:hover{
+    background-color: #156ad3;
+}
+
+nav .input:focus::placeholder{
+    color: #c9c9c9;
+}
+
+#esqueceukkk{
+    margin-left: 10px;
+    color: #1B74E4;
+    text-decoration: none;
+}
+
+#esqueceukkk:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 6rem;
+    background-color: #E9EBEE;
+}
+
+#recuperar_senha{
+    padding: 1.25rem;
+    background-color: #fff;
+    width: 43rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    box-shadow: #E9EBEE 4px 4px -4px -4px;
+}
+
+.text_box{
+    font-size: 1.5rem;
+}
+#p{
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+#input{
+    width: 98%;
+    height: 4rem;
+    border-radius: .7rem;
+    border: solid 1px #CCD0D5;
+    margin-bottom: 15px;
+    padding-left: 1.4rem;
+    font-size: 1.3rem;
+}
+
+#input::placeholder{
+    font-size: 17px;
+    padding: 1rem;
+}
+
+#input:focus::placeholder{
+    color: #c9c9c9;
+}
+
+#input:focus{
+    outline: none;
+}
+
+.padding{
+    margin:.8rem;
+}
+
+#divbutton{
+    display: flex;
+    justify-content: end;
+}
+
+#divbutton button{
+    margin-top: 15px;
+    margin-left: .5rem;
+    font-size: 1.2rem;
+    padding: .825rem 1.5rem;
+    border: none;
+    border-radius: 0.4rem;
+    font-weight: 800;
+}
+
+#botao_blue{
+    background-color: #1a7bf2;
+    color: #fff;
+}
+
+#botao_blue:hover{
+    background-color: #1470e0;
+}
+
+#botao_white{
+    color: #4b4f56;
+}
+
+
+#botao_white:hover{
+    border: solid 0.5px #bfbfbf;
+    background-color: #e5e5e5;
+}
+
+.hr{
+    width: 100%;
+    border-color: #CCD0D5;
+}
+

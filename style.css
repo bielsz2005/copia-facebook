@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@800&family=Inclusive+Sans&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F0F2F5;
+    padding: 130px;
+    font-family: 'Inclusive Sans', sans-serif;
+    color: #1c1e21;
+    display: grid;
+    object-position: center;
+    height: 100vh;
+}
+
+#all{
+    display: flex;
+    justify-content: space-around;
+}
+
+#h1{
+    font-size: 65px;
+    font-weight: 600;
+    font-family: 'Gabarito', cursive;
+    color: #1877f2;
+}
+
+#container_text{
+    height: 30vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+
+#container_login{
+    background-color: #fff;
+    padding: 10px 0;
+    margin-left: 30px;
+    height: 54vh;
+    width: 38%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 15px;
+    box-shadow: 4px 4px 10px #494f5718, -4px -4px 10px #484d5518;
+}
+
+.input, #input{
+    margin: 7px 0;
+    width: 90%;
+    height: 8vh;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.input:focus{
+    outline-color: #1877f2;
+}
+
+.input:active{
+    border-color: #1877f2;
+}
+
+.input{
+    border: 1.7px solid #494f5749;
+}
+
+.input::placeholder{
+    font-size: 17px;
+}
+
+#input{
+    background-color: #1877f2;
+    font-size: 20px;
+    border-style: none;
+    color: #fff;
+}
+
+#input:hover{
+    cursor: pointer;
+}
+
+#container_login a{
+    font-size: 15px;
+    text-decoration: none;
+    margin: 10px 0;
+    color: #1877f2;
+}
+
+#container_login a:hover{
+    text-decoration: underline #1877f2;
+}
+
+hr{
+    width: 90%;
+    opacity: 0.4;
+}
+
+#nova_conta{
+    background-color: #40b429;
+    width: 40%;
+    height: 7vh;
+    border-radius: 8px;
+    margin-top: 15px;
+    border-style: none;
+    font-size: 17px;
+    color: #fff;
+}
+
